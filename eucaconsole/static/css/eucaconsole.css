@@ -1597,9 +1597,9 @@ th.hide-for-touch { display: table-cell !important; }
 /* Eucalyptus Management Console main styles */
 /* ----------------------------------------- Fonts
 ----------------------------------------- */
-@font-face { font-family: 'Metric-Regular'; src: url(https://hpefonts.s3.amazonaws.com/MetricWeb-Regular.woff) format("woff"); }
-@font-face { font-family: 'Metric-Light'; src: url(https://hpefonts.s3.amazonaws.com/MetricWeb-Light.woff) format("woff"); }
-@font-face { font-family: 'Metric-Semibold'; src: url(https://hpefonts.s3.amazonaws.com/MetricWeb-Semibold.woff) format("woff"); }
+@font-face { font-family: 'Metric-Regular'; src: url(https://my.dxc.com/etc/designs/newco/clientlib-site/fonts/GTWalsheimProRegular.woff) format("woff"); }
+@font-face { font-family: 'Metric-Light'; src: url(https://my.dxc.com/etc/designs/newco/clientlib-site/fonts/GTWalsheimProRegular.woff) format("woff"); }
+@font-face { font-family: 'Metric-Semibold'; src: url(https://my.dxc.com/etc/designs/newco/clientlib-site/fonts/GTWalsheimProBold.woff) format("woff"); }
 /* ----------------------------------------- Master Layout
 ----------------------------------------- */
 html { background-color: white; }
