@@ -57,6 +57,10 @@
                         <div class="large-2 small-3 columns"><label i18n:translate="">Name</label></div>
                         <div class="large-10 small-9 columns field inline breakword">${security_group_name}</div>
                     </div>
+                    <div class="row controls-wrapper readonly" tal:condition="security_group">
+                        <div class="large-2 small-3 columns"><label i18n:translate="">ID</label></div>
+                        <div class="large-10 small-9 columns field inline breakword">${security_group_id}</div>
+                    </div>
                     <div tal:condition="not security_group" tal:omit-tag="">
                         ${panel('form_field', field=securitygroup_form['description'], ng_attrs={'model': 'securityGroupDescription'}, leftcol_width=3, rightcol_width=9, **{'pattern': securitygroup_form.sgroup_description_pattern})}
                     </div>
